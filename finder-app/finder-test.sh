@@ -46,9 +46,6 @@ then
 	fi
 fi
 
-echo "Removing old build artifacts and compiling writer"
-make clean
-make
 
 echo "NUMFILES=$NUMFILES"
 echo "WRITESTR=$WRITESTR"
